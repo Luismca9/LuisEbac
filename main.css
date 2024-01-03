@@ -5,9 +5,6 @@
     font-family: sans-serif;
 }
 
-body {
-}
-
 .container {
     margin: 80px auto;
     max-width: 640px;
@@ -18,7 +15,7 @@ form {
     margin-top: 40px;
 }
 
-input, textarea, button {
+input, button {
     display: block;
     padding: 8px;
     margin-bottom: 8px;
@@ -27,16 +24,14 @@ input, textarea, button {
 }
 
 button {
-    background-color: #2ecc71;
+    background-color: #2e31cc;
     border: none;
     text-transform: uppercase;
     color: #fff;
-    font-weight: bold;
     font-size: 18px;
-    font-style: italic;
-    cursor: pointer;
 }
 
 button:hover {
-    background-color: #27ae60;
+    background-color: #0003cc;
+    font-weight: bold;
 }
